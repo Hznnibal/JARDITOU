@@ -1,24 +1,133 @@
 nav {
     background-color: black;
     display: flex;
+    font-size: large;
+    color: aliceblue;
+    font-family: cursive;
+    justify-content: space-evenly;
     
+}
+body {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+    background-size:cover;
+          -webkit-animation: slidein 5s;
+          animation: slidein 5s;
+  
+          -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  
+          -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes slidein {
+    from {background-position: top; background-size:auto; }
+    to {background-position: -100px 0px;background-size:auto;}
+    }
+    
+    @keyframes slidein {
+    from {background-position: top;background-size:auto; }
+    to {background-position: -100px 0px;background-size:auto;}
+    
+    }
+.ACC {
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    font-family:cursive ;
+    color: aliceblue;
+    font-size: x-large;
+    
+}
+
+.ctct {
+    font-family: cursive;
+    color: aliceblue;
+    font-size: x-large;
+
+}
+.ct {
+    display: flex;
+    justify-content: center;
 }
 
 aside {
 
-    width: 40%;
+    width: 30%;
+    height: auto;
     background-color: rgb(207, 200, 200);
-    height: 580px;
+    float: right;
 }
 
-div {
+.aside {
     display: flex;
+    justify-content:space-between;
+    font-size:x-large;
+}
+
+.jardi {
+    display:flex;
+    flex-direction: row;
+}
+
+.tlj {
+    font-size:xx-large;
+    color: blue;
+    font-style: italic;
+    max-width: 30em;
+    max-height: 1.5em;
+    margin: 2em 15em 2em;
+    border: 10px solid #F0F0FF;
+    overflow: hidden;
+    box-shadow:0 .25em .5em #CCC, inset 0 0 1em .25em #CCC;
+    position: relative;
+    font-family: cursive ;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #F0F0FF, #CCC,#000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 2s infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, green, blue, alpha);
+    
+}
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
 }
 
 footer {
     background-color: black;
     display: flex;
+    font-size: large;
+    color: aliceblue;
+    font-family: cursive;
+    justify-content: space-around;
+    
+}
 
+#promo {
+    height: auto;
+    width: 100%;
+
+
+}
+
+aside {
+    
+    
+}
+
+.qqqq {
+    display: flex;
+    flex-direction:row;
 }
 
 li { 
